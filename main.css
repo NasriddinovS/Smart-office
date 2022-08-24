@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eceff4;
+}
+
+.wrapper {
+  margin: 0% auto;
+  height: 90px;
+  position: relative;
+}
+.container {
+  max-width: 1520px;
+  height: 900px;
+  margin: 0 auto;
+  padding: 0%;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 215, 233, 1) 0%,
+    rgba(172, 204, 224, 1) 6%,
+    rgba(190, 196, 218, 1) 100%,
+    rgba(255, 166, 205, 1) 100%
+  );
+}
+
+/* HEADER QISMI BOSHLANISHI */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+  position: absolute;
+  position: sticky;
+}
+
+.logo-header {
+  display: flex;
+  padding-top: 25px;
+}
+
+.header-list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-link {
+  list-style: none;
+  padding-top: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #26292c;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #08a0f8;
+}
+
+.btn-header {
+  gap: 25px;
+  padding-top: 25px;
+}
+
+.header-btn {
+  width: 162px;
+  height: 46px;
+  background: #08a0f8;
+  box-shadow: 0px 10px 30px rgba(8, 160, 248, 0.25);
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.header-btn:hover {
+  color: #08a0f8;
+  background-color: #f2f2fd;
+  border: 1.5px solid #08a0f8;
+}
+
+.select-header {
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  padding: 0% 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  margin: 0% 15px;
+  color: #26292c;
+  background-color: #f2f2fd;
+}
+
+/* HEADER QISMI TUGASHI */
+
+/* NAVBAR BOSHLANI */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.navbar-left {
+  padding: 90px 0px;
+  padding-left: 200px;
+}
+
+.navbar-right {
+  padding: 90px 0px;
+  padding-right: 200px;
+}
+
+.left-title {
+  width: 576px;
+  height: 120px;
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.left-text {
+  width: 550px;
+  height: 140px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #555c74;
+}
+
+.btn-navbar {
+  width: 180px;
+  height: 50px;
+  background-color: #08a0f8;
+  color: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.btn-navbar:hover {
+  color: #08a0f8;
+  background-color: #f2f2fd;
+  border: 1.5px solid #08a0f8;
+}
+
+/* NAVBAR TUGASHI */
+
+/* NAVBAR-NAV BOSHLANISHI */
+
+.navbar-nav {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  background: #eceff4;
+  /* background: #f1e5eb; */
+}
+
+.nav-left {
+  padding-top: 80px;
+  padding-left: 200px;
+}
+
+.nav-title {
+  width: 521px;
+  height: 110px;
+  font-family: "Rubik";
+  font-weight: 700;
+  color: #555c74;
+  font-size: 36px;
+  line-height: 55px;
+}
+
+.nav-text {
+  width: 490px;
+  height: 140px;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #555c74;
+}
+
+.nav-right {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  gap: 37px;
+  padding-top: 100px;
+  padding-right: 200px;
+}
+
+.box {
+  width: 280px;
+  height: 270px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 25px;
+  padding-top: 20px;
+}
+
+.foto-img1 {
+  width: 64px;
+  height: 64px;
+  background: #08a0f8;
+  border-radius: 10px;
+}
+.foto-img2 {
+  width: 64px;
+  height: 64px;
+  background: #f89808;
+  border-radius: 10px;
+}
+.foto-img3 {
+  width: 64px;
+  height: 64px;
+  background: #9d08f8;
+  border-radius: 10px;
+}
+
+.foto-img4 {
+  width: 64px;
+  height: 64px;
+  background: #00c7a3;
+  border-radius: 10px;
+}
+
+.box-title {
+  padding: 0px 25px;
+  color: #555c74;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.box-text {
+  font-size: 15px;
+  padding: 5px 25px;
+  line-height: 22px;
+  color: #555c74;
+}
+
+/* NAVBAR-NAV TUGADI */
+
+/* WRAP BOSHLANDI */
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 250px;
+  background: #eceff4;
+  background-image: url(./img/wrap-bacround.png);
+  background-size: cover;
+}
+
+.wrap-box {
+  padding-top: 60px;
+}
+
+.wrap-box-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.wrap-box-son {
+  font-family: "Rubik";
+  font-style: normal;
+  margin-left: 80px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  color: #08a0f8;
+}
+
+.wrap-box-son:nth-child(3) {
+  margin-left: 35px;
+}
+
+.wrap-box-son:last-child(3) {
+  margin-left: 40px;
+}
+
+.wrap-box-img {
+  margin-left: 60px;
+}
+
+/* WRAP TUGADI */
+
+/* INETRMEDIATE BOSHLANDI */
+
+.intermediate {
+  margin-left: 550px;
+  display: flex;
+  align-items: center;
+  width: 480px;
+  height: 190px;
+  background-image: url(./img/FAQ.svg);
+  background-size: cover;
+}
+
+.inter-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 55px;
+  color: #000000;
+}
+
+/* INETRMEDIATE tugadi */
+
+/* WRAPPER-WRAP BOSHLANDI */
+
+.wrapper-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+.boxing-left {
+}
+
+.boxing-box {
+  margin-top: 30px;
+  width: 540px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.boxing-title {
+  padding-left: 15px;
+  color: #26292c;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Rubik";
+}
+
+.boxing-frame {
+  margin-right: 15px;
+}
+
+/* WRAPPER-WRAP TUGADI */
+
+/* OVERALL-WRAP BOSHLANDI */
+
+.sapan-wrap {
+  text-align: center;
+}
+
+.span-title {
+  text-align: center;
+  padding-top: 25px;
+  color: #555c74;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.span-text {
+  padding-left: 300px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555c74;
+}
+
+.iframe {
+  margin-top: 50px;
+}
